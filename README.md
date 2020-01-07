@@ -1,137 +1,122 @@
-# Horace Jekyll Theme v1.2.0
+# al-folio
 
-[Theme Live Demo](https://horace.netlify.com/)
+[![build status](https://travis-ci.org/alshedivat/al-folio.svg?branch=master)](https://travis-ci.org/alshedivat/al-folio)
+[![demo](https://img.shields.io/badge/theme-demo-brightgreen.svg)](https://alshedivat.github.io/al-folio/)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg?maxAge=2592000)](https://github.com/alshedivat/al-folio/blob/master/LICENSE)
+[![gitter](https://badges.gitter.im/alshedivat/al-folio.svg)](https://gitter.im/alshedivat/al-folio?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
+
+A simple and clean [Jekyll](https://jekyllrb.com/) theme for academics.
+
+[![Screenshot](assets/img/full-screenshot.png)](https://alshedivat.github.io/al-folio/)
+
+Originally, **al-folio** was based on the [\*folio theme](https://github.com/bogoli/-folio) (published by [Lia Bogoev](http://liabogoev.com) and under the MIT license).
+Since then, it got a full re-write of the styles and many additional cool features.
+The emphasis is on whitespace, transparency, and academic usage: [theme demo](https://alshedivat.github.io/al-folio/).
+
+## Getting started
+
+For more about how to use Jekyll, check out [this tutorial](https://www.taniarascia.com/make-a-static-website-with-jekyll/).
+Why Jekyll? Read this [blog post](https://karpathy.github.io/2014/07/01/switching-to-jekyll/)!
+
+### Installation
+
+Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](https://bundler.io/) installed on your system (*hint: for ease of managing ruby gems, consider using [rbenv](https://github.com/rbenv/rbenv)*), first fork the theme from `github.com:alshedivat/al-folio` to `github.com:<your-username>/<your-repo-name>` and do the following:
+
+```bash
+$ git clone git@github.com:<your-username>/<your-repo-name>.git
+$ cd <your-repo-name>
+$ bundle install
+$ bundle exec jekyll serve
+```
+
+Now, feel free to customize the theme however you like (don't forget to change the name!).
+After you are done, **commit** your final changes.
+Now, you can deploy your website to [GitHub Pages](https://pages.github.com/) by running the deploy script:
+
+```bash
+$ ./bin/deploy [--user]
+```
+By default, the script uses the `master` branch for the source code and deploys the webpage to `gh-pages`.
+The optional flag `--user` tells it to deploy to `master` and use `source` for the source code instead.
+Using `master` for deployment is a convention for [user and organization pages](https://help.github.com/articles/user-organization-and-project-pages/).
+
+**Note:** when deploying your user or organization page, make sure the `_config.yml` has `url` and `baseurl` fields as follows.
+
+```
+url: # should be empty
+baseurl:  # should be empty
+```
+
+### Usage
+
+Note that `_pages/about.md` is built to index.html in the published site. There is therefore no need to have a separate index page for the project. If an index page does exist in the root directory then this will prevent `_pages/about.md` from being added to the built site.
 
 ## Features
 
-* Mobile-ready
-* Contact form built-in 
-* Social icons built-in
-* Social sharing built-in
-* Mailchimp subscription form
-* Free images pack for your blog cover
-* Code Syntax Highlight with [Prism.js](https://prismjs.com/)
-* Support for Disqus comments
+#### Ergonomic Publications
 
-## Getting Started
+Your publications page is generated automatically from your BibTex bibliography.
+Simply edit `_bibliography/papers.bib`.
+You can also add new `*.bib` files and customize the look of your publications however you like by editing `_pages/publications.md`.
 
-**Table of Contents**
+Keep meta-information about your co-authors in `_data/coauthors.yml` and Jekyll will insert links to their webpages automatically.
 
-* 1. Theme Configuration
-* 2. Author configuration
-* 3. Contact form setings
-* 4. Social Links
-* 5. Site Navigation
-* 6. Images
-* 7. Local Installation
-* 8. Deployment
-* 9. Support
+#### Collections
+This Jekyll theme implements collections to let you break up your work into categories.
+The example is divided into news and projects, but easily revamp this into apps, short stories, courses, or whatever your creative work is.
 
-### 1. Theme Configuration
+> To do this, edit the collections in the `_config.yml` file, create a corresponding folder, and create a landing page for your collection, similar to `_pages/projects.md`.
 
-The theme configuration options can be found within the **_config.yml** file. More information about Jekyll configuration can be found in the Jekyll documentation.
+Two different layouts are included: the blog layout, for a list of detailed descriptive list of entries, and the projects layout.
+The projects layout overlays a descriptive hoverover on a background image.
+If no image is provided, the square is auto-filled with the chosen theme color.
+Thumbnail sizing is not necessary, as the grid crops images perfectly.
 
-* description - the description of your site for social meta tag, search engines, and feed.xml.
-* name - the title of your blog, shown in the page and description areas.
-* logo - the image for site logo.
-* favicon - the icon for your site.
-* baseurl - the subpath of your site, e.g. /blog, for generating urls. If baseurl is set, you will need to prepend the baseurl to these settings: author image, site navigation, post images.
-* production_url - the base hostname and protocol of your site for where absolute urls are needed.
-* disqus - your Disqus shortname. Enter the Disqus shortname here if you wish to have Disqus comments enabled, leave blank to disable comments.
-* mailchimp_url - your form action URL for MailChimp newsletter signup form.
-* cover_image - the cover image used for you site home page.
+#### Theming
+Six beautiful theme colors have been selected to choose from.
+The default is purple, but quickly change it by editing `$theme-color` variable in the `_sass/variables.scss` file (line 72).
+Other color variables are listed there, as well.
 
-### 2. Author configuration
+#### Photos
+Photo formatting is made simple using rows of a 3-column system.
+Make photos 1/3, 2/3, or full width.
+Easily create beautiful grids within your blog posts and projects pages:
 
-* name - the name of the post/blog author.
-* image - the author profile image, shown at the bottom of each post and in the intro section on the home page. The author image can be found in the horace/assets/images/authorimage.jpg location.
-* greetings - used in the home page for the author intro section.
-* description - used in the home page for the author intro section.
-* bio - the author biography shown at the bottom of each post.
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/projects/1_project/">
+    <img src="assets/img/photos-screenshot.png" width="75%">
+  </a>
+</p>
 
-### 3. Contact form setings
-To make contact form work make sure you have defined "email: youremail@email.com" in _config.yml file and verify your form on formspree.io.
+#### Code Highlighting
+This theme implements Jekyll's built in code syntax highlighting with Pygments.
+Just use the liquid tags `{% highlight python %}` and `{% endhighlight %}` to delineate your code:
 
-* email - email used for contact form.
-* contact_page_description: - description used in contact form page (contact.html).
-* thankyou_page_description - description used in thank you page (thank-you.html).
+<p align="center">
+  <a href="https://alshedivat.github.io/al-folio/blog/2015/code/">
+    <img src="assets/img/code-screenshot.png" width="75%">
+  </a>
+</p>
 
-### 4. Social Links
+#### Social media previews
+The al-folio theme optionally supports preview images on social media.
+To enable this functionality you will need to set `serve_og_meta` to `true` in
+your `_config.yml`. Once you have done so, all your site's pages will include
+Open Graph data in the HTML head element.
 
-To enable social links on your blog simply enter your social profile username, for example, twitter: "justgoodthemes" . If a field is left blank, the social icon will not be shown.
+You will then need to configure what image to display in your site's social
+media previews. This can be configured on a per-page basis, by setting the
+`og_image` page variable. If for an individual page this variable is not set,
+then the theme will fall back to a site-wide `og_image` variable, configurable
+in your `_config.yml`. In both the page-specific and site-wide cases, the
+`og_image` variable needs to hold the URL for the image you wish to display in
+social media previews.
 
-### 5. Site Navigation
+## Contributing
 
-The site navigation can be found in the **_config.yml** file. To add a page to the site navigation simply add your new page in the markdown format (e.g. newpage.md) in the theme root folder. Next edit your navigation menu located in **_config.yml** file on line 26. To add a new item to the navigation you have to add the item name and url. For example:
+Feel free to contribute new features and theme improvements by sending a pull request.
+Style improvements and bug fixes are especially welcome.
 
-~~~~
-navigation:
-- text: New Page
-url: /newpage/
-~~~~
+## License
 
-### 6. Images
-
-Images for pages are located in the horace/assets/images folder and images for posts are located in the horace/assets/images/posts directory.
-
-#### Image With Caption
-
-Within your blog posts you can include captions for images. This requires using some HTML markup.
-
-The example below illustrates how to include an image with a caption in a blog post:
-
-~~~~
-{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg" 
-title="Apple Super" caption="supertest" %}
-~~~~
-
-Add the following code into your post/page markdown and change its attributes accordingly.
-
-#### Full Width Image With Caption
-
-To have wide images in posts or pages simply add #wide word with the hashtag at the end of image path like in the example below:
-
-~~~~
-{% include image-caption.html imageurl="/images/posts/Apple-Watch-In-Car.jpg#wide" 
-title="Apple" caption="This is caption" %}
-~~~~
-
-Add the following code into your post/page markdown and change its attributes accordingly.
-
-#### Image alignment
-
-To align images left or right you have to use #left and #right words with the hashtag at the end of the image path. Please, check the example below:
-
-~~~~
-![My helpful screenshot]("/assets/screenshot.jpg#left")
-~~~~
-
-### 7. Local Instalation
-
-To set up Jekyll on local machine please follow the official documentation that can be found here -> https://jekyllrb.com/docs/.
-
-### 8. Deployment
-
-Sites built using Jekyll can be deployed in a large number of ways due to the static nature of the generated output. Here are some of the most common ways:
-
-#### Manual Deployment
-
-Jekyll generates your static site to the **_site** directory by default. You can transfer the contents of this directory to almost any hosting provider to get your site live. Here are some manual ways of achieving this:
-
-##### Netlify
-
-This theme is prepared to be hosted on [Netlify](https://www.netlify.com/). All you need to do is create a new private repository on GitHub or GitLab. Upload the theme to the repository and link your repo to Netlify. Please check [this link](https://www.netlify.com/blog/2015/10/28/a-step-by-step-guide-jekyll-3.0-on-netlify/#step-2-link-to-your-github) with the step by step guidelines.
-
-##### FTP
-
-Most traditional web hosting providers let you upload files to their servers over FTP. To upload a Jekyll site to a web host using FTP, run the jekyll build command and copy the contents of the generated **_site** folder to the root folder of your hosting account. This is most likely to be the httpdocs or public_html folder on most hosting providers.
-
-##### Amazon S3
-
-If you want to host your site on Amazon S3, you can do so by using the [s3_website application](https://github.com/laurilehmijoki/s3_website). It will push your site to Amazon S3 where it can be served like any web server, dynamically scaling to almost unlimited traffic.
-
-### 9. Support
-
-The documentation included provides all the information you need to get started with the theme. However, if you have any questions you can email us at hello@justgoodthemes.com, and we will be happy to help you.
-
-*Also, if you have any bug reports, or feature requests, please let us know!*
+The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
