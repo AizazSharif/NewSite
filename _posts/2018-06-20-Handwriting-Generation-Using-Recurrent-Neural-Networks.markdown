@@ -46,7 +46,7 @@ After training the model for 50 epochs I generated both Unconditional Handwritin
 
 ---
 <center>
-<img src="{{site.baseurl}}/assets/img/conditional_sample_4.png" width="700">
+<img src="{{site.baseurl}}/assets/img/conditional_sample_4.png" class="col three caption">
 <figcaption class="caption">Conditional Handwriting</figcaption>
 </center>
 
@@ -54,7 +54,7 @@ After training the model for 50 epochs I generated both Unconditional Handwritin
 ---
 <center>
 
-<img src="{{site.baseurl}}/assets/img/unconditional_sample_2.png" width="700">
+<img src="{{site.baseurl}}/assets/img/unconditional_sample_2.png" class="col three caption">
 <figcaption class="caption">Unconditional Handwriting</figcaption>
 </center>
 

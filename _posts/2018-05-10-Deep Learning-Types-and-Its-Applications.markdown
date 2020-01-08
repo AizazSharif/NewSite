@@ -25,7 +25,7 @@ There are various types of Deep Learning models and their usage varies on factor
 - Project Link : [Github](https://github.com/AizazSharif/P2-Image-Classification-Using-Deep-Learning-CNN)
 
 <center>
-<img src="{{site.baseurl}}/assets/img/CNN.png" width="700">
+<img src="{{site.baseurl}}/assets/img/CNN.png" class="col three caption">
 <figcaption class="caption">Convolutional Neural Network Architecture</figcaption>
 </center>
 ---
@@ -34,7 +34,7 @@ There are various types of Deep Learning models and their usage varies on factor
 - Deep Learning Model : Long-Short Term Memory (LSTM)
 - Project Link : [Github](https://github.com/AizazSharif/P3-Generate-TV-Scripts-Using-Deep-Learning-LSTM)
 <center>
-<img src="{{site.baseurl}}/assets/img/LSTM2.png" width="700">
+<img src="{{site.baseurl}}/assets/img/LSTM2.png" class="col three caption">
 <figcaption class="caption">LSTM Architecture</figcaption>
 </center>
 ---
@@ -43,7 +43,7 @@ There are various types of Deep Learning models and their usage varies on factor
 - Deep Learning Model : Long-Short Term Memory (LSTM)
 - Project Link : [Github](https://github.com/AizazSharif/P4-DLND-Language-Translation-Using-Deep-Learning-LSTM)
 <center>
-<img src="{{site.baseurl}}/assets/img/sequence-to-sequence.jpg" width="700">
+<img src="{{site.baseurl}}/assets/img/sequence-to-sequence.jpg" class="col three caption">
 <figcaption class="caption">LSTM Sequence-to-Sequence Architecture</figcaption>
 </center>
 ---
@@ -52,7 +52,7 @@ There are various types of Deep Learning models and their usage varies on factor
 - Deep Learning Model : Generative Adversarial Networks (GANs)
 - Project Link : [Github](https://github.com/AizazSharif/P5-DLND-Generate-Faces-Using-Deep-Learning-GAN)
 <center>
-<img src="{{site.baseurl}}/assets/img/ganpic.png" width="700">
+<img src="{{site.baseurl}}/assets/img/ganpic.png" class="col three caption">
 <figcaption class="caption">Generative Adversarial Networks Architecture</figcaption>
 </center>
 ---

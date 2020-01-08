@@ -31,7 +31,7 @@ Currently, I have graduated as a Masters in Computer Science and also working as
  - Bioinformatics
  - Medical Imaging
  - Post-Mortem Mobile Device Forensics
- - Robotics
+
 
 ### Find me @
 

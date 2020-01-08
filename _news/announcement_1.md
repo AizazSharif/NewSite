@@ -1,7 +1,8 @@
 ---
 layout: post
-date: 2015-10-22 15:59:00-0400
-inline: true
+title: First journal article published.
+date: 2019-07-15 
+inline: false
 ---
 
-A simple inline announcement.
+After 2 years of struggle, my first academic paper has finally been published in [Wiley](https://onlinelibrary.wiley.com/doi/full/10.1002/ett.3675) journal. 

@@ -24,7 +24,7 @@ Application security support has become a preference for the enterprise as cyber
 ---
 
 <center>
-<img src="{{site.baseurl}}/assets/img/CNNModel.jpg" width="700">
+<img src="{{site.baseurl}}/assets/img/CNNModel.jpg" class="col three caption">
 <figcaption class="caption">Diagrammatic view of all the convolutions layers, filters, pooling, and connected layers of our proposed CNN architecture</figcaption>
 </center>
 
