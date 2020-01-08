@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-01-08T10:08:08+05:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Aizaz Sharif</title><subtitle>A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+</subtitle><entry><title type="html">Evaluation of Multi-Modal MRI Images for Brain Tumor Segmentation</title><link href="http://localhost:4000/blog/2019/evaluation-of-multi-modal-mri-images-for-brain-tumor-segmentation/" rel="alternate" type="text/html" title="Evaluation of Multi-Modal MRI Images for Brain Tumor Segmentation" /><published>2019-09-20T10:10:00+05:00</published><updated>2019-09-20T10:10:00+05:00</updated><id>http://localhost:4000/blog/2019/evaluation-of-multi-modal-mri-images-for-brain-tumor-segmentation</id><content type="html" xml:base="http://localhost:4000/blog/2019/evaluation-of-multi-modal-mri-images-for-brain-tumor-segmentation/">&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Brain tumors are the most threatening tumors. According to the World Health Organization (WHO) classification scheme, there are four (4) grades of brain tumors, namely, necrosis, edema, enhancing, and non-enhancing. The Magnetic Resonance Imaging (MRI) images are considered as the gold standard for capturing the contrast variations of brain tissues and are preferred due to their noninvasive nature. The four major type of MRI images that are used to detect and segment brain tumors are T1,T1c, T2 and Tf. For some tumor regions, the MRI images have very low contrast variations which make the segmentation of each grade of tumor a very difficult task. Existing models use multimodal MRI images for the segmentation of each grade of a tumor which results in downgraded performance in some tumor regions. Evaluating each MRI modality individually may improve performance in some tumor region and class. In this paper, we propose a new method that incorporates a deep learning-based model called U-Net to address the problem of brain tumor segmentation. The conceptual novelty of our method lies in modifying the U-Net model to make it suitable for multi-grade tumor segmentation task. Additionally, we use this architecture to evaluate individual MRI modalities for the segmentation of brain tumors. The proposed method is evaluated on Brain Tumor Image Segmentation (BRATS) 2015 dataset and has achieved significantly good results. It is pertinent to mention here that by using only T1 modality, we achieved the highest score for complete sub-tumoral region. On the other hand, a better result in core sub-tumoral has been achieved by using T2 modality, while the highest score in enhancing sub-tumoral region has been best achieved with the help of Tf modality&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/FlowDiagramFinal.jpg&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Representation of step by step processes involved in our method.&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;links-for-the-paper&quot;&gt;Links for the paper&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Submitted : &lt;a href=&quot;http://www.icet.org.pk/2019/call-for-papers/?fbclid=IwAR13dEVoLCIKsaqvmUSp_gxAiA2CEZLRn7Bep27SllnmNH6309l1qmiCkEk&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Dataset : &lt;a href=&quot;https://www.smir.ch/BRATS/Start2015&quot; download=&quot;&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>aizazsharif</name></author><category term="project" /><category term="Magnetic Resonance Imaging" /><category term="Brain Tumor" /><category term="Brain Tumor Segmentation" /><category term="Deep Learning" /><category term="U-Net" /><summary type="html">Abstract Brain tumors are the most threatening tumors. According to the World Health Organization (WHO) classification scheme, there are four (4) grades of brain tumors, namely, necrosis, edema, enhancing, and non-enhancing. The Magnetic Resonance Imaging (MRI) images are considered as the gold standard for capturing the contrast variations of brain tissues and are preferred due to their noninvasive nature. The four major type of MRI images that are used to detect and segment brain tumors are T1,T1c, T2 and Tf. For some tumor regions, the MRI images have very low contrast variations which make the segmentation of each grade of tumor a very difficult task. Existing models use multimodal MRI images for the segmentation of each grade of a tumor which results in downgraded performance in some tumor regions. Evaluating each MRI modality individually may improve performance in some tumor region and class. In this paper, we propose a new method that incorporates a deep learning-based model called U-Net to address the problem of brain tumor segmentation. The conceptual novelty of our method lies in modifying the U-Net model to make it suitable for multi-grade tumor segmentation task. Additionally, we use this architecture to evaluate individual MRI modalities for the segmentation of brain tumors. The proposed method is evaluated on Brain Tumor Image Segmentation (BRATS) 2015 dataset and has achieved significantly good results. It is pertinent to mention here that by using only T1 modality, we achieved the highest score for complete sub-tumoral region. On the other hand, a better result in core sub-tumoral has been achieved by using T2 modality, while the highest score in enhancing sub-tumoral region has been best achieved with the help of Tf modality</summary></entry><entry><title type="html">Function Identification in Android Binaries with Deep Learning</title><link href="http://localhost:4000/blog/2019/function-identification-in-android-binaries-with-deep-learning/" rel="alternate" type="text/html" title="Function Identification in Android Binaries with Deep Learning" /><published>2019-09-19T12:00:00+05:00</published><updated>2019-09-19T12:00:00+05:00</updated><id>http://localhost:4000/blog/2019/function-identification-in-android-binaries-with-deep-learning</id><content type="html" xml:base="http://localhost:4000/blog/2019/function-identification-in-android-binaries-with-deep-learning/">&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Application security support has become a preference for the enterprise as cybersecurity threats have transferred from the network perimeter to the application layer in modern years. To ensure that software is secure, organizations must test it before purchase or deployment and identify any flaws that may expose the organizations to vulnerabilities. Binary code analysis is a new method for application security testing and is transforming software security. Binary analysis aids in many important applications including automatically fixing vulnerable software and malware detection. Plenty of research has been done to improve binary analysis using datasets related to different computer platforms, new compilers, and new optimization techniques. However, there is a vast majority of Android users and since it is an open source platform it is equally vulnerable to similar attacks as well. In this research, we propose to implement deep neural networks to solve an essential yet difficult problem in binary analysis. We solve the problem of function boundary identification, a pivotal first step in a lot of binary analysis techniques. Neural networks have experienced a renewal in the past few years, achieving breakthrough outcomes in various fields such as object detection, language translation, and speech recognition. Yet no specific research has explored their utility in Android binary analysis. We exhibit that convolutional neural networks can identify functions in binaries with greater accuracy than the current state-of-the-art methods. Our model will be trained on a dataset of bytecode extracted from Android binaries. The proposed methodology is tested and evaluated on the Drebin Malware Dataset which contains Android Malware applications coming from various malware families. With the presented model, we achieved an overall precision of 0.75, recall of 0.79 and the f1 score of 0.76 in the testing phase.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/CNNModel.jpg&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Diagrammatic view of all the convolutions layers, filters, pooling, and connected layers of our proposed CNN architecture&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;links-for-the-paper&quot;&gt;Links for the paper&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Accepted : &lt;a href=&quot;https://is-candar.org/&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Download the created dataset : &lt;a href=&quot;https://drive.google.com/open?id=1Glv-L14lE2XAfhDsPtCMV0tY7WTONJOJ&quot; download=&quot;&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</content><author><name>aizazsharif</name></author><category term="project" /><category term="Function Identification" /><category term="Function Boundary" /><category term="Malware Detection" /><category term="Binary Analysis" /><category term="Deep Learning" /><category term="Convolutional Neural Networks" /><summary type="html">Abstract Application security support has become a preference for the enterprise as cybersecurity threats have transferred from the network perimeter to the application layer in modern years. To ensure that software is secure, organizations must test it before purchase or deployment and identify any flaws that may expose the organizations to vulnerabilities. Binary code analysis is a new method for application security testing and is transforming software security. Binary analysis aids in many important applications including automatically fixing vulnerable software and malware detection. Plenty of research has been done to improve binary analysis using datasets related to different computer platforms, new compilers, and new optimization techniques. However, there is a vast majority of Android users and since it is an open source platform it is equally vulnerable to similar attacks as well. In this research, we propose to implement deep neural networks to solve an essential yet difficult problem in binary analysis. We solve the problem of function boundary identification, a pivotal first step in a lot of binary analysis techniques. Neural networks have experienced a renewal in the past few years, achieving breakthrough outcomes in various fields such as object detection, language translation, and speech recognition. Yet no specific research has explored their utility in Android binary analysis. We exhibit that convolutional neural networks can identify functions in binaries with greater accuracy than the current state-of-the-art methods. Our model will be trained on a dataset of bytecode extracted from Android binaries. The proposed methodology is tested and evaluated on the Drebin Malware Dataset which contains Android Malware applications coming from various malware families. With the presented model, we achieved an overall precision of 0.75, recall of 0.79 and the f1 score of 0.76 in the testing phase.</summary></entry><entry><title type="html">Android Malware Detection through Generative Adversarial Networks</title><link href="http://localhost:4000/blog/2019/android-malware-detection-through-generative-adversarial-networks/" rel="alternate" type="text/html" title="Android Malware Detection through Generative Adversarial Networks" /><published>2019-08-25T10:10:00+05:00</published><updated>2019-08-25T10:10:00+05:00</updated><id>http://localhost:4000/blog/2019/android-malware-detection-through-generative-adversarial-networks</id><content type="html" xml:base="http://localhost:4000/blog/2019/android-malware-detection-through-generative-adversarial-networks/">&lt;h3 id=&quot;abstract&quot;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Mobile and cell devices have empowered end users to tweak their cell phones more than ever and introduce applications just as we used to with personal computers. Android likewise portrays an uprise in mobile devices and personal digital assistants. It is an open‐source versatile platform fueling incalculable hardware units, tablets, televisions, auto amusement frameworks, digital boxes, and so forth. In a generally shorter life cycle, Android also has additionally experienced a mammoth development in application malware. In this context, a toweringly large measure of strategies has been proposed in theory for the examination and detection of these harmful applications for the Android platform. These strategies attempt to both statically reverse engineer the application and elicit meaningful information as features manually or dynamically endeavor to quantify the runtime behavior of the application to identify malevolence. The overgrowing nature of Android malware has enormously debilitated the support of protective measures, which leaves the platforms such as Android feeble for novel and mysterious malware. Machine learning is being utilized for malware diagnosis in mobile phones as a common practice and in Android distinctively. It is important to specify here that these systems, however, utilize and adapt the learning‐based techniques, yet the overhead of hand‐created features limits ease of use of such methods in reality by an end user. As a solution to this issue, we mean to make utilization of deep learning–based algorithms as the fundamental arrangement for malware examination on Android. Deep learning turns up as another way of research that has bid the scientific community in the fields of vision, speech, and natural language processing. Of late, models set up on deep convolution networks outmatched techniques utilizing handmade descriptive features at various undertakings. Likewise, our proposed technique to cater malware detection is by design a deep learning model making use of generative adversarial networks, which is responsible to detect the Android malware via famous two‐player game theory for a rock‐paper‐scissor problem. We have used three state‐of‐the‐art datasets and augmented a large‐scale dataset of opcodes extracted from the Android Package Kit bytecode and used in our experiments. Our technique achieves F1 score of 99% with a receiver operating characteristic of 99% on the bytecode dataset. This proves the usefulness of our technique and that it can generally be adopted in real life.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/GANNN.jpg&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Block diagram of LSTM-GAN Architecture used in our expermients&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;links-for-the-paper&quot;&gt;Links for the paper&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Wiley Link : &lt;a href=&quot;https://onlinelibrary.wiley.com/doi/abs/10.1002/ett.3675&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;ResearchGate Link : &lt;a href=&quot;https://www.researchgate.net/publication/334479318_Android_malware_detection_through_generative_adversarial_networks?_sg=8rWKXZt9omxHXYyn_4CDh8j5bRgwX_Aap3KFeJTBMP09oeqpNWpsq5vl_5PcSnHMaIFD4zM3PYcrAw._PBE9vktyY4n5aXYzjAuGVW7m3wb9RIiewWtZmwiJmhpAldE0rJ_w5JjSus-HiVwfh2_z3aJNeNnb9zwJgIbqA&amp;amp;_sgd%5Bnc%5D=1&amp;amp;_sgd%5Bncwor%5D=0&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Download the paper : &lt;a href=&quot;../16506963.pdf&quot; download=&quot;&quot;&gt;Here&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;bibtex&quot;&gt;Bibtex&lt;/h3&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-markdown&quot; data-lang=&quot;markdown&quot;&gt;@misc{ruby,
+  title={Android malware detection through generative adversarial networks},
+  author= {Amin, Muhammad and Shah, Babar and Sharif, Aizaz and Ali, Tamleek and Kim, Ki‐lL and Anwar, Sajid},
+  month={Jul},
+  year= {2019},Transactions on Emerging Telecommunications Technologies}, 
+  publisher={John Wiley &amp;amp; Sons, Ltd},
+}&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>aizazsharif</name></author><category term="project" /><category term="Generative Adversarial Networks" /><category term="Deep Learning" /><category term="Android Malware Analysis" /><summary type="html">Abstract Mobile and cell devices have empowered end users to tweak their cell phones more than ever and introduce applications just as we used to with personal computers. Android likewise portrays an uprise in mobile devices and personal digital assistants. It is an open‐source versatile platform fueling incalculable hardware units, tablets, televisions, auto amusement frameworks, digital boxes, and so forth. In a generally shorter life cycle, Android also has additionally experienced a mammoth development in application malware. In this context, a toweringly large measure of strategies has been proposed in theory for the examination and detection of these harmful applications for the Android platform. These strategies attempt to both statically reverse engineer the application and elicit meaningful information as features manually or dynamically endeavor to quantify the runtime behavior of the application to identify malevolence. The overgrowing nature of Android malware has enormously debilitated the support of protective measures, which leaves the platforms such as Android feeble for novel and mysterious malware. Machine learning is being utilized for malware diagnosis in mobile phones as a common practice and in Android distinctively. It is important to specify here that these systems, however, utilize and adapt the learning‐based techniques, yet the overhead of hand‐created features limits ease of use of such methods in reality by an end user. As a solution to this issue, we mean to make utilization of deep learning–based algorithms as the fundamental arrangement for malware examination on Android. Deep learning turns up as another way of research that has bid the scientific community in the fields of vision, speech, and natural language processing. Of late, models set up on deep convolution networks outmatched techniques utilizing handmade descriptive features at various undertakings. Likewise, our proposed technique to cater malware detection is by design a deep learning model making use of generative adversarial networks, which is responsible to detect the Android malware via famous two‐player game theory for a rock‐paper‐scissor problem. We have used three state‐of‐the‐art datasets and augmented a large‐scale dataset of opcodes extracted from the Android Package Kit bytecode and used in our experiments. Our technique achieves F1 score of 99% with a receiver operating characteristic of 99% on the bytecode dataset. This proves the usefulness of our technique and that it can generally be adopted in real life.</summary></entry><entry><title type="html">Handwriting Generation Using Recurrent Neural Networks</title><link href="http://localhost:4000/blog/2018/Handwriting-Generation-Using-Recurrent-Neural-Networks/" rel="alternate" type="text/html" title="Handwriting Generation Using Recurrent Neural Networks" /><published>2018-06-20T00:00:00+05:00</published><updated>2018-06-20T00:00:00+05:00</updated><id>http://localhost:4000/blog/2018/Handwriting-Generation-Using-Recurrent-Neural-Networks</id><content type="html" xml:base="http://localhost:4000/blog/2018/Handwriting-Generation-Using-Recurrent-Neural-Networks/">&lt;p&gt;As many of us have used WordArt extensively back in school life and other tools similar to it for generating stylish text. Since then there is a lack of cursive font that can look similar to the human handwriting and also available to be used inside books and articles. Now, with the power of Deep Learning we are able to generate human-like handwriting (including some cursive) inside a computer.&lt;/p&gt;
+
+&lt;p&gt;I was recently introduced with the work of &lt;a href=&quot;https://arxiv.org/abs/1308.0850&quot;&gt;Alex Graves&lt;/a&gt; in which he proposed the basic architecture. The paper is hard to understand at first but I will try to break down the main points to get the overall picture.&lt;/p&gt;
+
+&lt;h2 id=&quot;architecture&quot;&gt;Architecture&lt;/h2&gt;
+&lt;p&gt;The main architecture used behind handwriting generation is Long-Short Term Memory. The dataset needed for the task is &lt;a href=&quot;http://www.fki.inf.unibe.ch/databases/iam-handwriting-database&quot;&gt;IAM Handwriting Database&lt;/a&gt;. The framework used for creating the whole model is Pytorch is a Deep Learning framework extensively used for research purposes and it is written in python.&lt;/p&gt;
+
+&lt;h2 id=&quot;types-of-handwriting-generation&quot;&gt;Types of Handwriting Generation&lt;/h2&gt;
+&lt;p&gt;There are two types of handwriting generation.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Unconditional Handwriting&lt;/li&gt;
+  &lt;li&gt;Conditional Handwriting&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;unconditional-handwriting&quot;&gt;Unconditional Handwriting&lt;/h3&gt;
+&lt;p&gt;Here the model is trained with the sequnces provided in the dataset and is asked to pick any handwriting style for generating some text at random to see the performance of the model.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&quot;https://greydanus.github.io/assets/scribe/stroke_to_ascii.png&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Handwriting Generation&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;h3 id=&quot;conditional-handwriting&quot;&gt;Conditional Handwriting&lt;/h3&gt;
+&lt;p&gt;It is more complex since the prediction is involved now. You will be training your model not just on the handwriting sequences but on the ascii text sentences in parallel as well. This way when the model is ready, it will generate handwriting based on text you have provided to generate.&lt;/p&gt;
+&lt;center&gt;
+&lt;img src=&quot;https://greydanus.github.io/assets/scribe/ascii_to_stroke.png&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Handwriting generation from ascii characters&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;h2 id=&quot;results&quot;&gt;Results&lt;/h2&gt;
+&lt;p&gt;After training the model for 50 epochs I generated both Unconditional Handwriting and Conditional Handwriting images. The quality and accuracy of the handwriting can be increased if there is GPU accesible so that the model can be trained further for improvement.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/conditional_sample_4.png&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Conditional Handwriting&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+&lt;center&gt;
+
+&lt;img src=&quot;/assets/img/unconditional_sample_2.png&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Unconditional Handwriting&lt;/figcaption&gt;
+&lt;/center&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;There are a lot of minute technical details regarding the architecture but I am skipping that so that one can get the basic concept first before exploring more. The two sources that helped me in this were the proposed paper itself and the lecture of the author himself at the Oxford University on this topic.&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;center&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/-yX1SYeDHbg&quot; frameborder=&quot;0&quot; allow=&quot;autoplay; encrypted-media&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/center&gt;
+&lt;hr /&gt;
+&lt;p&gt;You can find the source code on &lt;a href=&quot;https://github.com/AizazSharif/Handwriting-Generation-Using-Recurrent-Neural-Networks&quot;&gt;Github&lt;/a&gt;.&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Long-Short Term Memory" /><category term="Sequence Generation" /><category term="PyTorch" /><summary type="html">As many of us have used WordArt extensively back in school life and other tools similar to it for generating stylish text. Since then there is a lack of cursive font that can look similar to the human handwriting and also available to be used inside books and articles. Now, with the power of Deep Learning we are able to generate human-like handwriting (including some cursive) inside a computer.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Implementing Your first Practical Blockchain</title><link href="http://localhost:4000/blog/2018/Implementing-Your-first-Practical-Blockchain/" rel="alternate" type="text/html" title="Implementing Your first Practical Blockchain" /><published>2018-06-01T00:00:00+05:00</published><updated>2018-06-01T00:00:00+05:00</updated><id>http://localhost:4000/blog/2018/Implementing-Your-first-Practical-Blockchain</id><content type="html" xml:base="http://localhost:4000/blog/2018/Implementing-Your-first-Practical-Blockchain/">&lt;p&gt;Everyone is into the cryptocurrencies and its investment side these days but very few tries to understand the decentralized ledger that works behind it. If you want to learn what is actually a &lt;strong&gt;Blockchain&lt;/strong&gt; quickly and deploy it too then there is a ready path available for you.&lt;/p&gt;
+
+&lt;p&gt;By getting enrolled in &lt;a href=&quot;https://www.udemy.com/hyperledger-fabric-composer-first-practical-blockchain/&quot;&gt;this&lt;/a&gt; course developed by &lt;a href=&quot;https://recluze.net/&quot;&gt;Dr. 
+Mohammad Nauman&lt;/a&gt; you can easily start off with the topics like:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;What is a blockchain?&lt;/li&gt;
+  &lt;li&gt;Its highly popular and industry backed blockchain framework – Hyperledger Fabric&lt;/li&gt;
+  &lt;li&gt;Its high-level library – Composer.&lt;/li&gt;
+  &lt;li&gt;Creating our first blockchain and then a smart contract.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;By going through these topics and hands-on implementation you will also get across REST API so that the blockchain you are deploying can be easily integrated into an existing application. This course will take you a total of about 1.5 hours.&lt;/p&gt;
+
+&lt;p&gt;So in short, you will learn (taken from the course overview itself):&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;Basics of a hash&lt;/li&gt;
+  &lt;li&gt;How these simple concepts enable the powerful blockchain architecture&lt;/li&gt;
+  &lt;li&gt;Install and configure Hyperledger Fabric using the easiest method available&lt;/li&gt;
+  &lt;li&gt;Install and run Composer – a high-level, easy to use interface to Fabric&lt;/li&gt;
+  &lt;li&gt;Set up a REST API to use our blockchain from outside Fabric&lt;/li&gt;
+  &lt;li&gt;Use a REST API testing application and then PHP to access data from our blockchain&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;This is a great way to learn the technical side of distributed ledger system. There are no such pre-requisites asked by the instructor other than owning an Ubuntu/Mac Operation System on the host or virtual environment.&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Blockchain" /><category term="Decentralized Applications" /><summary type="html">Everyone is into the cryptocurrencies and its investment side these days but very few tries to understand the decentralized ledger that works behind it. If you want to learn what is actually a Blockchain quickly and deploy it too then there is a ready path available for you.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Deep Learning: Types and Its Applications</title><link href="http://localhost:4000/blog/2018/Deep-Learning-Types-and-Its-Applications/" rel="alternate" type="text/html" title="Deep Learning: Types and Its Applications" /><published>2018-05-10T00:00:00+05:00</published><updated>2018-05-10T00:00:00+05:00</updated><id>http://localhost:4000/blog/2018/Deep%20Learning-Types-and-Its-Applications</id><content type="html" xml:base="http://localhost:4000/blog/2018/Deep-Learning-Types-and-Its-Applications/">&lt;p&gt;Deep Learning is one of the advanced fields of this decade that revolutionized &lt;strong&gt;Artificial Intelligence&lt;/strong&gt; as a whole. It is deep learning that created the possibility of solving large-scale problems in the present world. Deep Learning is a branch of traditional &lt;strong&gt;Machine Learning&lt;/strong&gt; where we extend the structure and functionality of Neural Networks to solve complex problems and model vast data for accurate predictions.&lt;/p&gt;
+
+&lt;p&gt;Due to the emergence of this field, researchers all over the world started exploring it. Amazon created Alexa, Google made search and Language Translation better, Facebook improved their image tagging more accurate — all are using Deep Learning behind the scene. Deep Learning is even integrated to other parts of A.I. as well such as Reinforcement Learning.&lt;/p&gt;
+
+&lt;p&gt;There are various types of Deep Learning models and their usage varies on factors like type of dataset, type of problem to solve. One might get frustrated while thinking about the starting point of Deep Learning. If you know basics of Machine Learning and Mathematics then you can simply get into the learning phase. I covered few projects as part of my Online Nanodegree and they are as follows:&lt;/p&gt;
+
+&lt;hr /&gt;
+&lt;h3 id=&quot;image-classification-using-deep-learning&quot;&gt;Image Classification Using Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning Model : Convolutional Neural Network (CNN)&lt;/li&gt;
+  &lt;li&gt;Project Link : &lt;a href=&quot;https://github.com/AizazSharif/P2-Image-Classification-Using-Deep-Learning-CNN&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/CNN.png&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Convolutional Neural Network Architecture&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;generate-tv-scripts-using-deep-learning&quot;&gt;Generate TV Scripts Using Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning Model : Long-Short Term Memory (LSTM)&lt;/li&gt;
+  &lt;li&gt;Project Link : &lt;a href=&quot;https://github.com/AizazSharif/P3-Generate-TV-Scripts-Using-Deep-Learning-LSTM&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/LSTM2.png&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;LSTM Architecture&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;language-translation-using-deep-learning&quot;&gt;Language Translation Using-Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning Model : Long-Short Term Memory (LSTM)&lt;/li&gt;
+  &lt;li&gt;Project Link : &lt;a href=&quot;https://github.com/AizazSharif/P4-DLND-Language-Translation-Using-Deep-Learning-LSTM&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/sequence-to-sequence.jpg&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;LSTM Sequence-to-Sequence Architecture&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;generate-faces-using-deep-learning&quot;&gt;Generate Faces Using Deep Learning&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Deep Learning Model : Generative Adversarial Networks (GANs)&lt;/li&gt;
+  &lt;li&gt;Project Link : &lt;a href=&quot;https://github.com/AizazSharif/P5-DLND-Generate-Faces-Using-Deep-Learning-GAN&quot;&gt;Github&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;center&gt;
+&lt;img src=&quot;/assets/img/ganpic.png&quot; width=&quot;700&quot; /&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Generative Adversarial Networks Architecture&lt;/figcaption&gt;
+&lt;/center&gt;
+&lt;hr /&gt;
+
+&lt;p&gt;You can easily follow instruction of Python and Environmental Setup to run &lt;strong&gt;Jupyter Notebook&lt;/strong&gt; in each project. By going through these applications one can grap the intuition of how each model works.&lt;/p&gt;</content><author><name></name></author><category term="Artificial Intelligence" /><category term="Deep Learning" /><summary type="html">Deep Learning is one of the advanced fields of this decade that revolutionized Artificial Intelligence as a whole. It is deep learning that created the possibility of solving large-scale problems in the present world. Deep Learning is a branch of traditional Machine Learning where we extend the structure and functionality of Neural Networks to solve complex problems and model vast data for accurate predictions.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">My Experience with Data Analyst Nanodegree</title><link href="http://localhost:4000/blog/2017/My-Experience-with-Data-Analyst-Nanodegree/" rel="alternate" type="text/html" title="My Experience with Data Analyst Nanodegree" /><published>2017-08-01T00:00:00+05:00</published><updated>2017-08-01T00:00:00+05:00</updated><id>http://localhost:4000/blog/2017/My-Experience-with-Data-Analyst-Nanodegree</id><content type="html" xml:base="http://localhost:4000/blog/2017/My-Experience-with-Data-Analyst-Nanodegree/">&lt;p&gt;Data Analyst Nanodegree is of the finest and detailed courses present for online students to help out beginners who want to learn essential skills in Data Science. I started this course in December 2016 during my job as a Software Engineer and it helped me a lot in keeping myself updated with the necessary tools and languages that are required by Data Analysts. The skills you can learn are:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Python Programming and Libraries&lt;/li&gt;
+  &lt;li&gt;Data Wrangling and Storage&lt;/li&gt;
+  &lt;li&gt;Statistics&lt;/li&gt;
+  &lt;li&gt;Machine Learning&lt;/li&gt;
+  &lt;li&gt;Data Visualization&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can either pay the Nanodegree like I did for 6 months or If you want to have a glimpse you can go through all of the projects and their requirements using my Github Repositories.&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;Investigate a Dataset using Python ===&amp;gt; &lt;a href=&quot;https://github.com/AizazSharif/P2-DAND-Investigate-a-Dataset-Using-Python&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Wrangle OpenStreetMap Data Using Python and MongoDB ===&amp;gt; &lt;a href=&quot;https://github.com/AizazSharif/P3-Wrangle-OpenStreetMap-Data-Using-Python-and-MongoDB&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Explore and Summarize Data Using R ===&amp;gt; &lt;a href=&quot;https://github.com/AizazSharif/P4-DAND-Explore-and-Summarize-Data-Using-R&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Identify Fraud from Enron Mail Using Machine Learning ===&amp;gt; &lt;a href=&quot;https://github.com/AizazSharif/P5-DAND-Identify-Fraud-from-Enron-Email-Using-Machine-Learning&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Titanic Data Visualization Using D3Js ===&amp;gt; &lt;a href=&quot;https://github.com/AizazSharif/P6-DAND-Make-Effective-Data_Visualization-Using-D3js&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;You can easily follow instruction Environment Setup to run each project. What really unique about this degree was the active community and 24/7 support of the tutors to review code and documentation of your Github even if you fail to submit before the deadline. They also provide guidance regarding creating a job effective resume, interview practice, cover letter, and LinkedIn Networking. You can check out the updated projects &lt;a href=&quot;https://www.udacity.com/course/data-analyst-nanodegree--nd002&quot;&gt;here&lt;/a&gt; where thay have even added Tableau as part of the degree as well this time.&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Data Analyst" /><category term="Data Science" /><summary type="html">Data Analyst Nanodegree is of the finest and detailed courses present for online students to help out beginners who want to learn essential skills in Data Science. I started this course in December 2016 during my job as a Software Engineer and it helped me a lot in keeping myself updated with the necessary tools and languages that are required by Data Analysts. The skills you can learn are:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DeepTraffic-Competition</title><link href="http://localhost:4000/blog/2017/DeepTraffic-Competition/" rel="alternate" type="text/html" title="DeepTraffic-Competition" /><published>2017-01-30T00:00:00+05:00</published><updated>2017-01-30T00:00:00+05:00</updated><id>http://localhost:4000/blog/2017/DeepTraffic-Competition</id><content type="html" xml:base="http://localhost:4000/blog/2017/DeepTraffic-Competition/">&lt;p&gt;Registered people had to make changes in the given Network so that it can achieve max avergae speed in MPH.&lt;/p&gt;
+
+&lt;p&gt;In version 1.0 I reached to 10th position by getting help from different sources and using my basic Deep RL knowledge so far.&lt;/p&gt;
+
+&lt;p&gt;The best part was looking at &lt;a href=&quot;http://cs.stanford.edu/people/karpathy/convnetjs/&quot;&gt;Convnetjs&lt;/a&gt; which is made for practising Deep Learning and RL algorithms by the power of javascript inside browser without Linux or GPU support.&lt;/p&gt;
+
+&lt;p&gt;For the code &lt;a href=&quot;https://github.com/AizazSharif/DeepTraffic-Competition&quot;&gt;Here&lt;/a&gt; is the repository.&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Deep Reinforcement Learning" /><category term="Javascript" /><category term="ConvNetJS" /><summary type="html">Registered people had to make changes in the given Network so that it can achieve max avergae speed in MPH.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Finally tried Recommender System in Python</title><link href="http://localhost:4000/blog/2016/Finally-tried-Recommender-System-in-Python/" rel="alternate" type="text/html" title="Finally tried Recommender System in Python" /><published>2016-12-29T00:00:00+05:00</published><updated>2016-12-29T00:00:00+05:00</updated><id>http://localhost:4000/blog/2016/Finally-tried-Recommender-System-in-Python</id><content type="html" xml:base="http://localhost:4000/blog/2016/Finally-tried-Recommender-System-in-Python/">&lt;p&gt;Its been a year I studied this topic during my course in Machine Learning and while having enough understanding of how it works, I never got able to run it as a try due to many factors like matrix factorization, latent features, etc. 
+Thanks to python for always making our lives easy, I came across LightFm. LightFM is a Python implementation of a number of popular recommendation algorithms for both implicit and explicit feedback.
+So far the best part of this library is the hybrid implementation of both collaborative and content-based recommendation systems. So by taking help from &lt;a href=&quot;https://github.com/lyst/lightfm&quot;&gt;Lightfm&lt;/a&gt; and their documentation I wrote (i mean copy pasted OBVIOUSLY) a simple python code. I will continue exploring it.&lt;/p&gt;
+
+&lt;p&gt;Github link: &lt;a href=&quot;https://github.com/AizazSharif/Recommender-System-demo/tree/master&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Recommender System" /><category term="Machine Learning" /><category term="Python" /><summary type="html">Its been a year I studied this topic during my course in Machine Learning and while having enough understanding of how it works, I never got able to run it as a try due to many factors like matrix factorization, latent features, etc. Thanks to python for always making our lives easy, I came across LightFm. LightFM is a Python implementation of a number of popular recommendation algorithms for both implicit and explicit feedback. So far the best part of this library is the hybrid implementation of both collaborative and content-based recommendation systems. So by taking help from Lightfm and their documentation I wrote (i mean copy pasted OBVIOUSLY) a simple python code. I will continue exploring it.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Smartphone Based Human Activity Surveillance System</title><link href="http://localhost:4000/blog/2016/Smartphone-Based-Human-Activity-Surveillance-System/" rel="alternate" type="text/html" title="Smartphone Based Human Activity Surveillance System" /><published>2016-09-10T00:00:00+05:00</published><updated>2016-09-10T00:00:00+05:00</updated><id>http://localhost:4000/blog/2016/Smartphone-Based-Human-Activity-Surveillance-System</id><content type="html" xml:base="http://localhost:4000/blog/2016/Smartphone-Based-Human-Activity-Surveillance-System/">&lt;p&gt;With the ability to use Machine Learning within Android app, it can recognize, record and visualize basic human 6 physical activities like walking, running, sitting, standing, upstairs and downstairs in REAL TIME.&lt;/p&gt;
+
+&lt;p&gt;That was my Final Year Project and now I am working to extend my work and experience in Data Science and A.I.
+Github link : &lt;a href=&quot;https://github.com/AizazSharif/Apex-master-Final&quot;&gt;Here&lt;/a&gt;&lt;/p&gt;</content><author><name>aizazsharif</name></author><category term="blog" /><category term="Machine Learning" /><category term="Android Application" /><category term="Health" /><summary type="html">With the ability to use Machine Learning within Android app, it can recognize, record and visualize basic human 6 physical activities like walking, running, sitting, standing, upstairs and downstairs in REAL TIME.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/markdown.jpg" /><media:content medium="image" url="http://localhost:4000/assets/images/markdown.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
