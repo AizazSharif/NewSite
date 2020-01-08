@@ -1,6 +1,6 @@
 ---
 layout: post
-title: First journal article published.
+title: First journal article published
 date: 2019-07-15 
 inline: false
 ---
